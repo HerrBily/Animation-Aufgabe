@@ -1,0 +1,96 @@
+
+/*
+    HEADER & NAV
+*/
+
+.headline_txt {
+    display: flex;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    color: $primary-color;
+    font-size: $primary-size;
+    font-family: $primary-font;
+}
+
+.headline_txt p {
+    font-family: $txt-font;
+    font-size: $txt-size;
+    color: #fff;
+}
+
+.background_img {
+    background-image: url('../../img/header.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: calc(100vh - 66px);
+}
+
+nav {
+    background-color: #fff;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.nav_list {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 50%; 
+}
+
+#count {
+    float: right;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    padding: 0 7px;
+    margin-left: 2px;
+    background: #ccc;
+}
+
+#logo {
+    width: 140px;
+}
+
+.st0{
+    stroke:#000;
+    stroke-width:1.2px;
+}
+
+#svg_animation {
+    width: 30px;
+    height: 30px;
+}
+
+.nav_hover:hover {
+    color: #ccc;
+}
+
+#svg_animation:hover {
+    fill: #ccc;
+}
+
+
+
+.fixed-nav nav {
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    transition: all 0.3s ease-out;
+    width: 100%;
+    z-index: 3;
+    opacity: 0.8;
+  }
+
+  .bounce {
+    animation-duration: 1s;
+    animation-name: bounce;
+  }
+
+
+
+

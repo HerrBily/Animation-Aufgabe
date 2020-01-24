@@ -1,0 +1,30 @@
+/*
+    Footer
+*/
+
+footer {
+    background-color: #fff;
+    height: 250px;
+    border-top: solid 1px black;
+    padding-top: 2rem;
+    display: block;
+    align-items: center;
+    text-align: center;
+    line-height: 4rem;
+    margin: 0 auto;
+    width: 80%
+}
+
+.f_logo {
+    width: 9rem;
+}
+
+.footer_list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 30%;
+}
+
+
+
